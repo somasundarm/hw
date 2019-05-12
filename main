@@ -5,16 +5,16 @@ pipeline {
     stages {
  stage ('Hello')    {
 steps {
-        sh echo 'Hello World'
+        echo 'Hello World'
     }
     }
  stage ('Do Something')
     {
-       sh echo 'Doing Something'
+       echo 'Doing Something'
     }
 stage ('Done')    
     {
-        sh echo 'All Done'
+         echo 'All Done'
     }
 } 
 }
