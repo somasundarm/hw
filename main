@@ -1,20 +1,9 @@
-env = /usr/bin
-
 pipeline {
     agent any
     stages {
- stage ('Hello')    {
-steps {
-        echo 'Hello World'
+        stage('Helloe World') {
+            steps {
+                sh 'echo "Hello World "'
+            }
+        }
     }
-    }
- stage ('Do Something')
-    {
-       echo 'Doing Something'
-    }
-stage ('Done')    
-    {
-         echo 'All Done'
-    }
-} 
-}
