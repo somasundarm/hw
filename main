@@ -5,11 +5,11 @@ pipeline {
             steps {
                 sh 'echo "Hello World "'
             }
-             stage ('Do Something')
+     stage('Do Something')
     {
        sh 'echo "Doing Something"'
     }
-stage ('Done')    
+stage('Done')    
     {
          sh 'echo "All Done"'
     }
