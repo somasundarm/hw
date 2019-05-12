@@ -7,11 +7,11 @@ pipeline {
             }
              stage ('Do Something')
     {
-       sh echo 'Doing Something'
+       sh 'echo "Doing Something"'
     }
 stage ('Done')    
     {
-         sh echo 'All Done'
+         sh 'echo "All Done"'
     }
         }
     }
